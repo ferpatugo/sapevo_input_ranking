@@ -35,11 +35,12 @@ sapevo_input_ranking=function(){
         vetor_final[[i]]=c(0,nota_decisor1_comparacao1,-nota_decisor1_comparacao1,0)
         
         assign("vetor_final",vetor_final,envir = .GlobalEnv)
-        assign("projeto",projeto,envir = .GlobalEnv)
+        assign("decisores",decisores,envir = .GlobalEnv)
         assign("alternativas",alternativas,envir = .GlobalEnv)
         assign("criterios",criterios,envir = .GlobalEnv)
         
         cat("O nome do seu projeto ?:",projeto,"\n")
+        cat("Os decisores do seu projeto ?:",decisores,"\n")
         cat("Aternativas do seu projeto:",alternativas,"\n")
         cat("Criterios do seu projeto:",criterios,"\n")
         cat("O input para a funcao sapevo_pesos é o vetor:\n")
@@ -67,11 +68,12 @@ sapevo_input_ranking=function(){
         
         
         assign("vetor_final",vetor_final,envir = .GlobalEnv)
-        assign("projeto",projeto,envir = .GlobalEnv)
+        assign("decisores",decisores,envir = .GlobalEnv)
         assign("alternativas",alternativas,envir = .GlobalEnv)
         assign("criterios",criterios,envir = .GlobalEnv)
         
         cat("O nome do seu projeto ?:",projeto,"\n")
+        cat("Os decisores do seu projeto ?:",decisores,"\n")
         cat("Aternativas do seu projeto:",alternativas,"\n")
         cat("Criterios do seu projeto:",criterios,"\n")
         cat("O input para a funcao sapevo_pesos é o vetor:\n")
@@ -118,11 +120,12 @@ sapevo_input_ranking=function(){
                            -nota_decisor1_comparacao3,-nota_decisor1_comparacao5, -nota_decisor1_comparacao7,0)
         
         assign("vetor_final",vetor_final,envir = .GlobalEnv)
-        assign("projeto",projeto,envir = .GlobalEnv)
+        assign("decisores",decisores,envir = .GlobalEnv)
         assign("alternativas",alternativas,envir = .GlobalEnv)
         assign("criterios",criterios,envir = .GlobalEnv)
         
         cat("O nome do seu projeto ?:",projeto,"\n")
+        cat("Os decisores do seu projeto ?:",decisores,"\n")
         cat("Aternativas do seu projeto:",alternativas,"\n")
         cat("Criterios do seu projeto:",criterios,"\n")
         cat("O input para a funcao sapevo_pesos é o vetor:\n")
@@ -191,11 +194,12 @@ sapevo_input_ranking=function(){
         
         
         assign("vetor_final",vetor_final,envir = .GlobalEnv)
-        assign("projeto",projeto,envir = .GlobalEnv)
+        assign("decisores",decisores,envir = .GlobalEnv)
         assign("alternativas",alternativas,envir = .GlobalEnv)
         assign("criterios",criterios,envir = .GlobalEnv)
         
         cat("O nome do seu projeto ?:",projeto,"\n")
+        cat("Os decisores do seu projeto ?:",decisores,"\n")
         cat("Aternativas do seu projeto:",alternativas,"\n")
         cat("Criterios do seu projeto:",criterios,"\n")
         cat("O input para a funcao sapevo_pesos é o vetor:\n")
